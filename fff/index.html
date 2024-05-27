@@ -1,21 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 class="t1">VIAGENS</h1>
     <h2>
       Bem vindo ao site de viagens da compania <B>JVR.</B> Aqui iremos ajudar você a achar o seu destino perfeito
     </h2>
-    <h3>informe seus dados nesse quadrado</h3>
-    <form action="=">
-      <textarea name="texto" rows="4" cols="50"></textarea>
+    <h3>informe seus dados</h3>
+    <form>
+      
+        <div>
+          <label>nome</label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+          <label>sobrenome</label>
+          <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+        <div>
+          <label>Email</label required>
+          <input type="email" name="email" id="email">
+        </div>
+        <label>CPF</label requireds>
+        <input type="number" name="CPF" id="CPF">
+        <div>
+          <label>Qual seu genero</label>
+          <label>
+            <input type="radio" name="M" volue="maculino">Masculino
+          </label>
+          <label>
+            <input type="radio" name="f" volue=" Feminino">Feminino
+          </label>
+        </div>
+         <button type="submit" class="botao"> enviar</button>
     </form>
-    <p> informe o destino que deseja</p>
     
     <a href="https://www.youtube.com/">youtube</a>
 </body>
